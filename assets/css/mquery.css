@@ -1,0 +1,847 @@
+@media only screen and (min-width:280px) {
+
+    .principal__titulo {
+        font-size: 1.2em;
+        margin-bottom: 5em;
+    }
+
+    .principal__img {
+        width: 35vh;
+        margin-bottom: 5.9em;
+    }
+
+    .dispositivos__caixa-img {
+        width: 30vh;
+    }
+
+    .telas__descricao-texto {
+        margin-bottom: 1em;
+    }
+}
+
+
+@media only screen and (min-width: 320px) {
+    
+    .principal__titulo {
+        margin-bottom: 4.5em ;
+    }
+
+    .principal__img {
+        margin-bottom: 6.5em;
+        width: 45vh;
+    }
+
+    .principal__aviso {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (min-width:360px) {
+    .principal__titulo {
+        margin-bottom: 5em ;
+        font-size: 1.2em;
+    }
+
+    .principal__img {
+        margin-bottom: 6.5em;
+        width: 45vh;
+    }
+
+    .principal__botao {
+        font-size: 1.1em;
+    }
+    
+    .principal__botaoSecundario {
+        font-size: 1.1em;
+    }
+
+    .principal__aviso {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    
+    .principal__titulo {
+        margin-bottom: 5.5em ;
+    }
+
+    .principal__img {
+        margin-bottom: 7.15em;
+        width: 45vh;
+    }
+
+    .principal__botao {
+        font-size: 1.15em;
+    }
+    
+    .principal__botaoSecundario {
+        font-size: 1.15em;
+    }
+
+    .principal__aviso {
+        font-size: .8em;
+    }
+
+
+    /* Dispositivos */
+
+    .dispositivos__caixa-img    {
+        width: 40vh;
+    }
+
+}
+
+@media only screen and (min-width:390px) {
+
+    .principal__titulo {
+        font-size: 1.5em;
+        margin-bottom: 6em;
+    }
+
+    .principal__img {
+        margin-bottom: 9em;
+        width: 40vh;
+    }
+
+    .principal__botao {
+        font-size: 1.20em;
+    }
+
+
+    .principal__botaoSecundario {
+        font-size: 1.20em;
+    }
+    
+}
+
+@media only screen and (min-width:411px){
+
+    .principal__titulo {
+        margin-bottom: 4em ;
+        font-size: 1.6em;
+    }
+
+    .principal__img {
+        margin-bottom: 6.3em;
+        width: 45vh;
+    }
+
+    .principal__botao {
+        font-size: 1.2em;
+    }
+    
+    .principal__botaoSecundario {
+        font-size: 1.2em;
+    }
+
+    .principal__aviso {
+        font-size: .9em;
+    }
+
+}
+
+
+@media only screen and (min-width:412px) {
+    
+    .principal__titulo {
+        margin-bottom: 6em ;
+        font-size: 1.6em;
+    }
+
+    .principal__img {
+        margin-bottom: 9.60em;
+        width: 40vh;
+    }
+
+    .principal__botao {
+        font-size: 1.2em;
+    }
+    
+    .principal__botaoSecundario {
+        font-size: 1.2em;
+    }
+
+    .principal__aviso {
+        font-size: .9em;
+    }
+
+
+}
+
+@media only screen and (min-width:540px) {
+
+    .principal__titulo {
+        margin-bottom: 5em;
+    }
+
+    .principal__img {
+        width: 50vh;
+        margin-bottom: 7em;
+    }
+    
+}
+
+/* @media only screen and (min-width:600px) {
+
+
+    .principal__titulo {
+        padding: 2em;
+        margin-bottom: 5em;
+    }
+
+    .principal__img {
+        width: 40vh;
+        margin-bottom: 15em;
+    }
+
+} */
+
+
+@media only screen and (min-width: 768px) {
+
+    .principal {
+        padding: 50px;
+    }
+   
+    .principal__titulo {
+        font-size: 2.6em;
+        margin-bottom: 3.5em;
+        padding: 0;
+    }
+
+    .principal__img {
+        width: 55vh;
+        margin-bottom: 8em;
+    }
+
+    .principal__botao {
+        padding: 2em;
+        font-size: 1.5em;
+    }
+
+    .principal__botaoSecundario {
+        padding: 1.3em;
+        font-size: 1.8em;
+    }
+
+    .principal__aviso {
+        font-size: 1.2em;
+        margin-top: 1em;
+    }
+
+    /* Secundário */
+
+    .secundario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .secundario__img {
+        width: 50vh;
+    }
+
+    .descricao__titulo {
+        font-size: 2.5em;
+        margin-top: .2em;
+    }
+
+    .descricao__texto {
+        font-size: 1.2em;
+    }
+
+    /* Telas */
+
+    .telas {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .telas__img {
+        width: 50vh;
+    }
+
+    .telas__descricao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .telas__descricao-texto {
+        font-size: 1.2em;
+    }
+
+    .telas__descricao-botao {
+        padding: 1.3em;
+        font-size: 1.2em;
+    }
+
+    /* Downloads */
+
+    .downloads {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .downloads__img {
+        width: 60vh;
+    }
+
+    .downloads__descricao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .downloads__descricao-titulo {
+        font-size: 2.5em;
+    }
+
+    .downloads__descricao-texto {
+        font-size: 1.2em;
+        margin-top: 0;
+    }
+
+    /* Dispositivos */
+
+    .dispositivos {
+        padding: 50px;
+    }
+
+    /* rodape */
+
+    .rodape {
+        padding: 50px;
+    }
+
+
+    .rodape__list-item {
+        font-size: 1.2em;
+    }
+
+}
+
+@media only screen and (min-width: 820px) {
+
+    .principal__aviso {
+        font-size: 1.5em;
+    }
+    
+}
+
+@media only screen and (min-width: 910px) {
+
+    .principal__titulo {
+        font-size: 3em;
+        margin-bottom: 4.5em;
+    }
+
+    .principal__img {
+        width: 50vh;
+        margin-bottom: 12em;
+    }
+
+    .principal__botao {
+        font-size: 2em;
+    }
+
+    .principal__botaoSecundario {
+        font-size: 2.35em;
+    }
+
+    .principal__aviso {
+        font-size: 1.8em;
+    }
+    
+}
+
+
+
+@media only screen and (min-width:1000px) {
+
+    .principal {
+       display: grid;
+       grid-template-columns: 50%;
+       margin: 0;
+       padding: 0;
+
+       background-image: url("../img/background.png");
+       background-repeat: no-repeat;
+       background-size: contain;
+       background-position: center ;
+       align-items: center;
+       text-align: center;
+
+       height: 100vh;
+    }
+
+    .principal__caixa {
+        padding: 4em 6em 4em 2em;
+    }
+
+    .principal__titulo {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+        padding: 0 3em 0 3em;
+    }
+
+    .principal__img {
+        width: 50vh;
+        margin-bottom: 1.5em;
+
+    }
+
+    .principal__botao {
+        font-size: .9em;
+        padding: 1.5em ;
+    }
+    
+    .principal__botaoSecundario {
+        font-size: .95em;
+    }
+
+    .principal__aviso {
+        font-size: .75em;
+    }
+
+    /* Secundário */
+
+    .secundario {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 6em;
+        padding: 0 3em 3.6em 3em;
+    }
+
+    .secundario__img {
+        width: 80vh;
+    }
+
+    .secundario__descricao {
+        padding: 6em;
+    }
+
+    /* Telas */
+
+    .telas {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .telas__img {
+        width: 80vh;
+    }
+
+    .telas__descricao-texto {
+        padding: 0em 4em 0em 4em;
+        margin-bottom: 2em;
+    }
+
+    .telas__descricao-botao {
+        font-size: 1em;
+    }
+
+    /* Downloads */
+
+    .downloads {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10em;
+        margin-bottom: 10em;
+    }
+
+    .downloads__img {
+        width: 80vh;
+    }
+
+    .downloads__descricao-texto {
+        padding: 0em 3em 0em 3em;
+    }
+
+    /* Dispositivos */
+
+    .dispositivos {
+        margin: 0;
+    }
+
+    .dispositivos__caixa {
+        display: flex;
+        flex-direction: row;
+        padding: 2em;
+    }
+
+    .dispositivos__caixa-img {
+        width: 55vh;
+    }
+
+    /* Rodapé */
+
+    .rodape {
+        padding: 3em 3em 0 3em;
+    }
+
+    .rodape__list {
+        flex-direction: row;
+        padding: 0 3em 0 3em;
+        line-height: 0;
+        font-size: .9em;
+        margin-bottom: 0;
+        margin-top: 2em;
+    }
+
+    .rodape__list-item {
+        font-size: 1.15em;
+        line-height: 1em;
+        padding: 0 0 0 11px;
+        text-align: center;
+    }
+
+    .rodape__texto-secundario {
+        margin: 0;
+    }
+}
+
+/* @media only screen and (width: 1024px) {
+    
+    .principal__img {
+        width: 25vh;
+    }
+    
+
+    .dispositivos__caixa-img {
+        width: 22vh;
+    }
+} */
+
+
+@media only screen and (min-width: 1920px) {
+
+    .principal__titulo {
+        font-size: 2em;
+    }
+
+    .principal__img {
+        width: 40vh;
+    }
+
+    .principal__botao {
+        padding: 2em 4em 2em 4em;
+        margin-top: 1em;
+    }
+
+    .principal__botaoSecundario {
+        margin-top: .5em;
+    }
+
+    /* Secundário */
+
+    .secundario {
+        padding-left: 5em;
+        padding-right: 5em;
+        margin-bottom: 0em;
+    }
+
+    .descricao__texto {
+        padding-left: 3em;
+        padding-right: 3em ;
+    }
+
+    /* Telas */
+
+    .telas {
+        padding-left: 7em;
+        padding-right: 7em ;
+        margin-top: 13.5em;
+        margin-bottom: 15em ;
+    }
+
+    .telas__descricao-texto {
+        padding-left: 6em;
+        padding-right:12em;
+        margin-bottom: .5em; 
+    }
+
+    .telas__img {
+        padding-right: 5em;
+        width: 90vh;
+    }
+
+    .telas__descricao-botao {
+        margin-right: 7.2em;
+        padding: 2em;
+        font-size: .95em;
+    }
+
+    /* Downloads */
+
+    .downloads {
+        margin-top: 16.5em;
+        margin-bottom: 14.5em;
+    }
+
+    .downloads__descricao-texto {
+        padding-left:12em ;
+        padding-right: 12em ;
+    }
+
+    .downloads__img {
+        margin-left: 2em;
+    }
+
+    /* Dispositivos */
+
+    .dispositivos__titulo {
+        font-size: 2em;
+    }
+
+    .dispositivos__caixa {
+        margin: 7em 0 7em 0;
+    }
+
+    .dispositivos__caixa-img {
+        width: 55vh;
+        padding: auto 0 auto 0;
+    }
+
+    .dispositivos__caixa-nome {
+        font-size: 2em;
+    }
+
+    /* Rodapé */
+
+    .logo {
+        width: 10vh;
+        margin-bottom: 1em;
+    }
+
+}
+
+@media only screen and (min-width:2560px) {
+
+    .principal__titulo {
+        padding:0 6em 0 6em;
+        font-size: 2.5em;
+    }
+
+    .principal__img {
+        width: 35vh;
+    }
+
+    .principal__botao {
+        padding: 2em 6em 2em 6em;
+        font-size: 1.5em;
+    }
+    
+    .principal__botaoSecundario {
+        font-size: 1.6em;
+    }
+
+    .principal__aviso {
+        font-size: 1.5em;
+    }
+
+    /* Secundário */
+
+    .secundario {
+        padding: auto 5em auto 5em;
+    }
+
+    .secundario__img {
+        padding-left: 5em;
+        width: 70vh;
+    }
+
+    .secundario__descricao {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .descricao__titulo {
+        font-size: 4em;
+    }
+
+    .descricao__texto {
+        font-size: 2em;
+    }
+
+    /* Telas */
+    
+    .telas {
+        margin-top: 0;
+    }
+
+    .telas__descricao-texto {
+        font-size: 2em;
+        padding-right: 3em;
+        padding-left: 4em;
+    }
+
+    .telas__img {
+        padding-right: 7em;
+        width: 100vh;
+    }
+
+    .telas__descricao-botao {
+        margin-right: 0em;
+        margin-left: 1em;
+    }
+ 
+    /* Downloads */
+
+    .downloads__descricao-titulo {
+        font-size: 4em;
+    }
+
+    .downloads__descricao-texto {
+        font-size: 2em;
+        padding: 0 4em 0 4em;
+    }
+
+    /*Dispositivos*/
+
+    .dispositivos__caixa-img {
+        width: 50vh;
+    }
+    
+    .dispositivos__titulo {
+        font-size: 4em;
+    }
+
+    .dispositivos__caixa {
+        margin-top: 6em;
+        margin-bottom: 6em;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dispositivos__caixa-nome {
+        font-size: 2.5em;
+    }
+
+
+    /* Rodapé */
+
+    .rodape__list-item {
+        font-size: 1.5em;
+        padding-left: 1em;
+    }
+
+    .rodape__list {
+        margin: 2em 4em 1em 4em;
+    }
+
+    .rodape__texto {
+        font-size: 1em;
+    }
+
+}
+
+/* 2160 */
+
+@media only screen and (min-width: 3840px) {
+ 
+    .principal__titulo {
+        font-size: 4em;
+    }
+
+    .principal__img {
+        width: 40vh;
+    }
+
+    .principal__botao {
+        padding: 1em 3em;
+        font-size: 3em;
+    }
+
+    .principal__botaoSecundario {
+        font-size: 3.2em;
+    }
+
+    .principal__aviso {
+        font-size: 2em;
+    }
+
+    /* Secundário */
+
+    .secundario__img {
+        margin-left: 5em;
+        width: 100vh;
+
+    }
+
+    .descricao__titulo {
+        font-size: 6em;
+    }
+    
+    .descricao__texto {
+        font-size:3.5em;
+    }
+
+    /* Telas */
+
+    .telas {
+        margin: 27em auto 26em auto;
+    }
+
+    .telas__img {
+        padding-right: 10em;
+        width: 150vh; 
+    }
+
+    .telas__descricao-texto {
+        font-size:3.5em;
+    }
+
+    /* Downloads */
+
+    .downloads__img  {
+        margin-left: 5em;
+        width: 120vh;
+        margin-bottom: 20em;
+    }
+    
+    .downloads__descricao-titulo {
+        font-size: 6em;
+    }
+    
+    .downloads__descricao-texto {
+        font-size:3.5em;
+    }
+
+    /* Dispositivos */
+
+    .dispositivos__caixa {
+        margin: 6em auto 10em auto;
+    }
+
+    .dispositivos__caixa-img {
+        width:55vh;
+    }
+
+    .dispositivos__caixa-nome {
+        font-size: 3.5em;
+    }
+
+    /* Rodapé */
+
+    .logo {
+        width: 10vh;
+    }
+
+    .rodape__list-item {
+        font-size: 3em;
+        margin-top: 1em;
+    }
+
+    .rodape__texto {
+        font-size: 2em;
+    }
+
+}
